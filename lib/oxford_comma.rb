@@ -1,9 +1,9 @@
 def oxford_comma(array)
-if array == 1
+if array.length == 1
   return "#{array[0]}"
-elsif array == 2
+elsif array.length == 2
   return array.join(", ")
-elsif array >= 3
+elsif array.length >= 3
 
 end
 end
