@@ -3,7 +3,7 @@ if array == 1
   return "#{array[0]}"
 elsif array == 2
   return array.join(", ")
-elsif array >= 3
+elsif array => 3
 
 end
 end
